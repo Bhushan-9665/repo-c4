@@ -1,0 +1,212 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.title-1{
+    height: 100%;
+    background-image: linear-gradient( to right, red, green, yellow);
+    text-align: center;
+    position: relative;
+    right: 50px;
+}   
+
+.parent-1{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 50px;
+}
+.nav-2{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    height: 80px;
+    background-color: aqua;
+    border-radius: 10px;
+    border: 5px solid tomato;
+    position: relative;
+    bottom: 20px;
+    
+}
+
+li{
+    padding-left: 40px;
+}
+.parent-3{
+    display: grid;
+    grid-template-columns: auto auto auto 130px;
+    grid-template-rows: auto auto 130px;
+    background-color: aquamarine;
+    position: absolute;
+    right: 50px;
+    border-radius: 10px;
+    border: 5px solid brown;
+    top: 200px;
+    column-gap: 10px;
+    font-size: 14px;
+}
+
+.box-1{
+    
+    height: 100px;
+    background-color: aqua;
+    border-radius: 10px;
+    border: 5px solid green;
+}
+
+.box-2{
+    
+    height: 100px;
+    background-color: aqua;
+    border-radius: 10px;
+    border: 5px solid green;
+}
+
+.box-3{
+    
+    height: 100px;
+    background-color: aqua;
+    border-radius: 10px;
+    border: 5px solid green;
+}
+
+.box-4{
+    
+    height: 100px;
+    background-color: aqua;
+    border-radius: 10px;
+    border: 5px solid green;
+    grid-column: 2/3;
+}
+
+.title-2{
+    height: 100%;
+    background-image: linear-gradient( to right, red, yellow ,red);
+    text-align: center;
+    position: relative;
+    right: 50px;
+    position: relative;
+    top: 500px;
+}
+
+.parent-4{
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    border: 5px solid green;
+    position: relative;
+    top: 530px;
+    right: 50px;
+    background-image: radial-gradient(ellipse, rgb(16, 84, 139), rgb(22, 161, 22) );
+    
+}
+
+.p1{
+    width : 300px;
+    height: 100px;
+    background-color: yellow;
+    border-radius: 10px;
+    border: 5px solid tomato;
+    color: brown;
+}
+
+.p2{
+    width : 200px;
+    height: 100px;
+    background-color: yellow;
+    border-radius: 10px;
+    border: 5px solid tomato;
+    color: brown;
+}
+
+.p3{
+    width : 200px;
+    height: 100px;
+    background-color: yellow;
+    border-radius: 10px;
+    border: 5px solid tomato;
+    color: brown;
+}
+
+.p4{
+    width : 200px;
+    height: 100px;
+    background-color: yellow;
+    border-radius: 10px;
+    border: 5px solid tomato;
+    color: brown;
+}
+p{
+    position: relative;
+    top: 20px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto 100px;
+    grid-template-rows: 50px 30px 100px;
+    gap: 50px;  
+    position: relative;
+    right: 50px;
+    top: 560px;
+    background-color: aquamarine;
+}
+
+.G-box{
+    background-color: aqua;
+    border: 3px solid black;
+    color: aliceblue;
+    text-align: center;
+    font-weight: 48px;
+}   
+
+.G-box-1{
+    background-color: red;
+    grid-column: 1/5;
+    height: 70px;
+}
+
+.G-box-2{
+    background-color: yellowgreen;
+    height: 50px;
+}
+
+.G-box-3{
+    background-color: rgb(120, 120, 253);
+    height: 50px;
+}
+
+.G-box-4{
+    background-color: rgb(0, 0, 255);
+    height: 50px;
+}
+
+.G-box-5{
+    
+    background-color: black;
+    grid-row: inherit;
+    height: 175px;  
+}
+.ol-1 div{
+padding
+
+}
+/* .ol-1{
+    display: flex;
+    justify-content: center;
+} */
+
+.G-box-6{
+    background-color: orange;
+    grid-column: 1/4;
+   
+}
+
+.G-box-7{
+    background-color: aqua;
+    grid-column: 1/5;
+    height: 50px;
+}
